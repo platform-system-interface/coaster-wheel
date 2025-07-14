@@ -1,0 +1,14 @@
+[package]
+name = "coaster-wheel-rt"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "demo"
+path = "src/main.rs"
+
+[dependencies]
